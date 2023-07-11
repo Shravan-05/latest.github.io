@@ -1,0 +1,479 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: cadetblue;
+}
+#pp
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#search
+{
+    width: 50rem;
+    height: 50px;
+    margin: 5rem auto;
+    justify-content:space-between;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border: 2px solid   rgba(155,0,250,1) ;
+border-radius: 20px;
+ }
+  input
+{
+    width: 40rem;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+border-radius: 20px;
+
+}
+button
+{
+height: 50px;
+width: 150px;
+background-image: linear-gradient(90deg,rgba(93,12,255,1) 0% , rgba(155,0,250,1) 100%);
+border: none;
+font-size: 20px;
+color: white;
+border-radius: 15px;
+
+}
+#div
+{
+
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#collection
+{
+    display: flex;
+    width:100rem;
+    flex-wrap: wrap;
+}
+
+#collection img
+{
+    width: 30rem;
+    height: 300px;
+    margin-left: 2rem;;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+
+}
+#btns
+{
+    width: 500px;
+    display: flex;
+    margin: 2rem auto;
+    justify-content: space-evenly;
+    display: none;
+}
+@media screen and (max-width:1700px) and (min-width:1200px)
+{
+    #collection
+    {
+        display: flex;
+        width:70rem;
+        flex-wrap: wrap;
+    }
+    
+    #collection img
+    {
+        width: 20rem;
+        height: 200px;
+        margin-left: 2rem;;
+        margin-right: 1rem;
+        margin-top: 2rem;
+        border-radius: 10px;
+    
+    }
+    #btns
+    {
+        width: 500px;
+        display: flex;
+        margin: 2rem auto;
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width:1200px) and (min-width:990px)
+{
+    #collection
+    {
+        display: flex;
+        width:60rem;
+        flex-wrap: wrap;
+    }
+    
+    #collection img
+    {
+        width: 15rem;
+        height: 200px;
+        margin-left: 3rem;;
+        margin-right:1rem;
+        margin-top: 2rem;
+        border-radius: 10px;
+    
+    }
+    #btns
+    {
+        width: 500px;
+        display: flex;
+        margin: 2rem auto;
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width:990px) and (min-width:700px)
+{
+    #collection
+    {
+        display: flex;
+        width:40rem;
+        flex-wrap: wrap;
+    }
+    
+    #collection img
+    {
+        width: 10rem;
+        height: 100px;
+        margin-left: 2rem;
+        margin-right:0;
+        margin-top: 2rem;
+        border-radius: 10px;
+        margin-right: 1rem;
+    
+    }
+}
+@media screen and (max-width:700px) and (min-width:500px)
+{
+    #collection
+    {
+        display: flex;
+        width:70vh;
+        flex-wrap: wrap;
+    }
+    
+    #collection img
+    {
+        width: 150px;
+        height: 100px;
+        margin-top: 2rem;
+        border-radius: 10px;
+        margin-right: 20px;
+        margin-left: 3rem;
+        margin-right: 0;
+    
+    }
+}
+@media screen and (max-width:500px) and (min-width:400px)
+{
+    #collection
+    {
+        display: flex;
+        width:60vh;
+        flex-wrap: wrap;
+    }
+    
+    #collection img
+    {
+        width: 150px;
+        height: 100px;
+        margin-top: 2rem;
+        border-radius: 10px;
+        margin-right: 20px;
+        
+        margin-right: 0;
+    
+    }
+}
+@media screen and (max-width:400px) and (min-width:390px)
+{
+    #collection
+    {
+        display: flex;
+        width:90vh;
+        flex-wrap: wrap;
+    }
+    
+    #collection img
+    {
+        width: 150px;
+        height: 100px;
+        margin-top: 2rem;
+        border-radius: 10px;
+        margin-right:0px;
+        margin-left: 30px;
+    
+    }
+}
+@media screen and (max-width:390px) and (min-width:379px)
+{
+    #collection
+    {
+        display: flex;
+        width:80vh;
+        flex-wrap: wrap;
+    }
+    
+    #collection img
+    {
+        width: 150px;
+        height: 100px;
+        margin-top: 2rem;
+        border-radius: 10px;
+        margin-right:0;
+        margin-left: 30px;
+    
+    }
+}
+@media screen and (max-width:379px) and (min-width:349px)
+{
+    #collection
+    {
+        display: flex;
+        width:80vh;
+        flex-wrap: wrap;
+    }
+    
+    #collection img
+    {
+        width: 140px;
+        height: 100px;
+        margin-top: 2rem;
+        border-radius: 10px;
+        margin-right:10px;
+margin-left:20px;
+    
+    }
+}
+@media screen and (max-width:349px) and (min-width:329px)
+{
+    #collection
+    {
+        display: flex;
+        width:90vh;
+        flex-wrap: wrap;
+    }
+    
+    #collection img
+    {
+        width: 120px;
+        height: 100px;
+        margin-top: 2rem;
+        border-radius: 10px;
+        margin-right:10px;
+margin-left:25px;
+    margin-right: 10px;
+    }
+}
+@media screen and (max-width:329px) and (min-width:319px)
+{
+    #collection
+    {
+        display: flex;
+        width:90vh;
+        flex-wrap: wrap;
+    }
+    
+    #collection img
+    {
+        width: 115px;
+        height: 100px;
+        margin-top: 2rem;
+        border-radius: 10px;
+        margin-right:10px;
+margin-left:25px;
+    margin-right: 10px;
+    }
+}
+@media screen and (max-width:319px) and (min-width:300px)
+{
+    #collection
+    {
+        display: flex;
+        width:90vh;
+        flex-wrap: wrap;
+    }
+    
+    #collection img
+    {
+        width: 110px;
+        height: 100px;
+        margin-top: 2rem;
+        border-radius: 10px;
+        margin-right:10px;
+margin-left:25px;
+    margin-right: 10px;
+    }
+}
+@media screen and (max-width:1000px) and (min-width:500px)
+{
+    #pp
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#search
+{
+    width: 30rem;
+    height: 40px;
+    margin: 5rem auto;
+    justify-content:space-between;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border: 2px solid   rgba(155,0,250,1) ;
+border-radius: 20px;
+ }
+  input
+{
+    width: 20rem;
+    height:40px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+button
+{
+height: 40px;
+width: 100px;
+background-image: linear-gradient(90deg,rgba(93,12,255,1) 0% , rgba(155,0,250,1) 100%);
+border: none;
+font-size: 15px;
+color: white;
+border-radius: 15px;
+
+}
+
+#btns
+{
+    width: 500px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+}
+@media screen and (max-width:500px) and (min-width:400px)
+{
+    #pp
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#search
+{
+    width: 20rem;
+    height: 40px;
+    margin: 5rem auto;
+    justify-content:space-between;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border: 2px solid   rgba(155,0,250,1) ;
+border-radius: 20px;
+ }
+  input
+{
+    width: 10rem;
+    height:40px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+border-radius: 10px;
+margin-left: 10px;
+}
+button
+{
+height: 40px;
+width: 90px;
+background-image: linear-gradient(90deg,rgba(93,12,255,1) 0% , rgba(155,0,250,1) 100%);
+border: none;
+font-size: 15px;
+color: white;
+border-radius: 15px;
+
+}
+
+#btns
+{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+}
+@media screen and (max-width:400px) and (min-width:200px)
+{
+    #pp
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#search
+{
+    width: 15rem;
+    height: 40px;
+    margin: 5rem auto;
+    justify-content:space-between;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border: 2px solid   rgba(155,0,250,1) ;
+border-radius: 20px;
+ }
+  input
+{
+    width: 5rem;
+    height:40px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+border-radius: 10px;
+margin-left: 10px;
+}
+button
+{
+height: 40px;
+width: 90px;
+background-image: linear-gradient(90deg,rgba(93,12,255,1) 0% , rgba(155,0,250,1) 100%);
+border: none;
+font-size: 10px;
+color: white;
+border-radius: 15px;
+
+}
+
+#btns
+{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+}
